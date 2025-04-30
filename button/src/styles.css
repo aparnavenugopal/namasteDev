@@ -1,0 +1,27 @@
+.like-button{
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid gray;
+    color: gray;
+    cursor: pointer;
+    font-size: 1 rem;
+    transition: all 0.3s ease;
+ }
+ 
+ .like-button.hovered {
+    border-color: red;
+    color: red;
+ }
+ 
+ .like-button.clicked {
+    background-color: red;
+    color: white;
+ }
+ 
+ .like-button.clciked .heart{
+    color: white;
+ }
+ 
+ 
+ 
