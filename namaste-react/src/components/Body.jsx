@@ -6,7 +6,8 @@ const Body = () => {
     <div className='body'>
       <div className='search'>Search</div>
       <div className='res-container'>
-        <ResCard/>
+        <ResCard resName="meghana foods" cusinie="north Indian, asian"/>
+        <ResCard resName="kfc" cusinie="fast food, asian"/>
       </div>
     </div>
   )
